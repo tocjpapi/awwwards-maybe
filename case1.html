@@ -3,17 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Study on Paulsen</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favi.png" type="image/x-icon">
 </head>
 <body data-barba="wrapper">
     <main class="container" data-barba="container" data-barba-namespace="about">
-    <div class="next3">
-        <div class="page-img-container">
-            <img src="https://www.datocms-assets.com/92457/1676542549-custo_03.jpg?fit=max&fm=jpg&h=1920&w=1920">
+        <div class="link menu">
+            <p>menu</p>
         </div>
-    </div>
+
+
+        <div class="casepage">
+            <div class="grandimage">
+              <div class="grandimagecontainer">
+              <img src="https://images.unsplash.com/photo-1663811396500-d128a4df7369?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" srcset="">
+            </div>
+            <div class="subject"> <p>PAUL<span class="nana3  y">sen<sub></sub></span></p></div>
+            <div class="date"><p>2023.</p></div>
+            </div>
+          </div>
+
+
+    <div class="time" id="gmtClock"></div>
+
     </main>
-    <script src="app.js"></script>
+
+    <script>
+        function updateClock() {
+            const now = new Date();
+            const hours = now.getUTCHours().toString().padStart(2, '0');
+            const minutes = now.getUTCMinutes().toString().padStart(2, '0');
+            const timeString = `${hours}<span class="blinker">:</span>${minutes} GMT.`;
+    
+            document.getElementById('gmtClock').innerHTML = timeString;
+        }
+    
+        setInterval(updateClock, 1000);
+        updateClock(); 
+    </script>
+
+
 </body>
 </html>
