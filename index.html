@@ -9,7 +9,10 @@
     
     <title>Treasure Onwuchekwa</title>
 </head>
-<body>
+
+
+<body data-barba="wrapper">
+  <main class="container" data-barba="container" data-barba-namespace="home">
 
 
 
@@ -50,7 +53,10 @@
 
     </p>
         </div>
+
+
     </div>
+
 
     <div class="spacer">
 
@@ -59,10 +65,12 @@
     <div  class="next">
         <div class="imgcontainer test">
             <div   class="img introanim">
-                <img  id="scroll" src="https://images.unsplash.com/photo-1663811396500-d128a4df7369?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" srcset="">
-            </div>
+              <a href="case1.html">
+                <img  id="scroll" src="https://dr.savee-cdn.com/things/6/4/097330e63c8a1b805b0b9d.webp" alt="" srcset="">
+              </a>
+              </div>
             <div class="text">
-                <div class="content left"><p  class="nana2">PAULSEN</p></div>
+                <div class="content left"><p  class="nana2">PAULINE</p></div>
 
                 <div class="content right"><p>2023.</p></div>
             </div>
@@ -70,10 +78,10 @@
 
         <div class="imgcontainer">
             <div class="img">
-                <img src="https://images.unsplash.com/photo-1642756063091-0b6abb1bf595?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" srcset="">
+                <img src="https://dr.savee-cdn.com/things/6/6/96d4621054d76c3a21a9f5.webp" alt="" srcset="">
             </div>
             <div class="text">
-                <div class="content left"><p  class="nana2">JORDAN</p></div>
+                <div class="content left"><p  class="nana2">JEROME</p></div>
 
                 <div class="content right"><p>2022.</p></div>
             </div>
@@ -81,7 +89,7 @@
 
         <div class="imgcontainer">
           <div class="img">
-              <img src="https://images.unsplash.com/photo-1659259540130-8af8e70198ff?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" srcset="">
+              <img src="https://dr.savee-cdn.com/things/6/6/9e732bf59e867cf89a42af.webp" alt="" srcset="">
           </div>
           <div class="text">
               <div class="content left"><p  class="nana2">BOVATO</p></div>
@@ -92,7 +100,7 @@
 
         <div class="imgcontainer">
           <div class="img">
-              <img src="https://images.unsplash.com/photo-1691036562015-56ebf6648f8c?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" srcset="">
+              <img src="https://dr.savee-cdn.com/things/6/6/8eff6a3caf26826a37506b.webp" alt="" srcset="">
           </div>
           <div class="text">
               <div class="content left"><p  class="nana2">JUNO</p></div>
@@ -108,7 +116,7 @@
 
         <div class="imgcontainer">
             <div class="img">
-                <img src="https://images.unsplash.com/photo-1656384270519-1107f9098f2b?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" srcset="">
+                <img src="https://dr.savee-cdn.com/things/6/6/a20055cc12d6996c0cb7bd.webp" alt="" srcset="">
             </div>
             <div class="text">
                 <div class="content left"><p  class="nana2">COMPLEX</p></div>
@@ -125,7 +133,7 @@
     </div>
 
     <div class="copybottom">
-        <p>COPYRIGHT © ALL RIGHTS RESERVED</p>
+        <p>© ALL RIGHTS RESERVED</p>
     </div>
 
 
@@ -135,11 +143,11 @@
 
     <div class="time they" id="gmtClock"></div>
 
-    <div class="menuover" id="menuOverlay">      </div>
+    <div class="menuover" id="menuOverlay"></div>
         <div class="menus" id="menuContent">
           <div class="items">
             <div class="item first" style="opacity: 1;"><p >work</p></div>
-            <div class="item second" style="opacity: 0.3;"><p>about</p></div>
+            <div  onclick="window.location.href='about.html'" class="item second" style="opacity: 0.3;"><p>about</p></div>
             <div class="item third" style="opacity: 0.3;"><p>contact</p></div>
            </div>
       
@@ -155,6 +163,8 @@
            <div class="dot"></div>
         </div>
 
+        
+
 
 
 
@@ -164,34 +174,19 @@
         <img src="special.png" alt="" srcset="">
      </div> -->
 
-    
+    </main>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@latest/bundled/lenis.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/plugins/Flip.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
+
+<script src="app.js"></script>
+
+
 
 <script>
-
-const lenis = new Lenis({
-    duration: 1.2,
-    easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
-    direction: 'vertical',
-    gestureDirection: 'vertical',
-    smooth: true,
-    smoothTouch: false,
-    touchMultiplier: 1,
-    infinite: false,
-});
-
-// Request animation frame loop for Lenis
-function raf(time) {
-    lenis.raf(time);
-    requestAnimationFrame(raf);
-}
-
-requestAnimationFrame(raf);
-
 
 
 </script>
@@ -202,49 +197,12 @@ requestAnimationFrame(raf);
 
 
 <script>
-    gsap.registerPlugin(ScrollTrigger);
-
-    const tl = gsap.timeline({
-        scrollTrigger: {
-            trigger: ".main",
-            start: "top top",
-            end: "bottom 50%",
-            scrub: true,
-        }
-        
-    });
-
-
-    tl.to(".main", {
-        opacity: 0,
-        ease: "none",
-    });
-    
-
 
 
 </script>
 
 
 <script>
-    gsap.registerPlugin(ScrollTrigger);
-
-    
-    document.querySelectorAll('.img').forEach((img, index) => {
-
-        gsap.to(img.querySelector("img"), {
-            yPercent: 30,
-            ease: "none",
-            scrollTrigger: {
-                trigger: img,
-                start: "top bottom",
-                end: "bottom top",
-                scrub: true,
-            }
-        });
-    });
-
-
 
 
 </script>
@@ -253,195 +211,32 @@ requestAnimationFrame(raf);
 
 
 <script>
-    document.querySelectorAll('.container__heading').forEach(container => {
-      const tl = gsap.timeline();
 
-    tl.from(".loader span",{
-      duration: 1.5,
-      stagger:.03,
-
-      ease: "expo.Out" 
-    })
-    tl.to(".loader span",{
-      duration:.6,
-
-      stagger:.06,
-      y: -140,
-      ease: "power3.inOut" 
-    })
-    
-      tl.to(".introanim", {
-        duration: 3,
-        clipPath: "inset(0% 0% 0% 0%)",
-      ease: "power4.out"
-    })
-
-    tl.to(".introanim img", {
-        duration: 3,
-        scale: "1",
-        y: '0%', 
-        ease: "expo.out"
-    }, 2.2)
-
-
-
-
-
- 
-
-
-
-
-    .to(".test",{
-        duration: 3,
-        scale: "1",
-        y: '0%', 
-        ease: "expo.out"
-    })
-
-    
-
-    
-    .to(".text", {
-        duration: 2,
-        duration: 1,
-         opacity: 1,
-      ease: "expo.out"
-    })
-
-
-
-    .to(container.querySelectorAll('.heading__line span'), {
-        y: "0",
-        filter: "blur(0px)",
-        stagger: 0.05,
-        duration: 2,
-        ease: "expo.out"
-      }, 5.1)
-
-              
-    .to(".they", {
-        duration: 2,
-         opacity: 1,
-      ease: "expo.out"
-    }, 5.3)
-
-
-    });
   </script>
   
   
   <script>
-    function updateClock() {
-        const now = new Date();
-        const hours = now.getUTCHours().toString().padStart(2, '0');
-        const minutes = now.getUTCMinutes().toString().padStart(2, '0');
-        const timeString = `${hours}<span class="blinker">:</span>${minutes} GMT.`;
 
-        document.getElementById('gmtClock').innerHTML = timeString;
-    }
-
-    setInterval(updateClock, 1000);
-    updateClock(); 
 </script>
 
 
-<script>
-    function loader(){
 
-    
-
-    
-    
-    }
-    loader();
-    </script>
 
     
 
 
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    const menuButton = document.querySelector('.menu');
-    const menuOverlay = document.getElementById('menuOverlay');
-    const menuContent = document.getElementById('menuContent');
-    const menuItems = document.querySelectorAll('.item');
 
-    function closeMenu() {
-      menuOverlay.classList.remove('show');
-      menuContent.classList.remove('show');
-    }
-
-    function openMenu() {
-      menuOverlay.classList.add('show');
-      menuContent.classList.add('show');
-    }
-
-    menuButton.addEventListener('click', function() {
-      if (menuOverlay.classList.contains('show')) {
-        closeMenu();
-      } else {
-        openMenu();
-      }
-    });
-
-    menuOverlay.addEventListener('click', function(event) {
-      if (event.target === menuOverlay) {
-        closeMenu();
-      }
-    });
-
-    menuItems.forEach(item => {
-      item.addEventListener('click', function() {
-        closeMenu();
-      });
-    });
-
-    // Close menu on scroll
-    window.addEventListener('scroll', function() {
-      if (menuOverlay.classList.contains('show')) {
-        closeMenu();
-      }
-    });
-  });
 </script>
 
 
   <script>
-         const items = document.querySelectorAll('.item');
-      const images = document.querySelectorAll('.job img');
-      const defaultImage = document.querySelector('.job .first');
-  
-      items.forEach(item => {
-        item.addEventListener('mouseenter', () => {
-          images.forEach(img => img.style.opacity = '0');
-          const imgToShow = document.querySelector(`.job .${item.classList[1]}`);
-          imgToShow.style.opacity = '1';
-        });
-  
-        item.addEventListener('mouseleave', () => {
-          images.forEach(img => img.style.opacity = '0');
-          defaultImage.style.opacity = '1';
-        });
-        })
+
   </script>
   
 <script>
 
-      const firstItem = document.querySelector('.items .first');
-      const itemsContainer = document.querySelector('.items');
-    
-      items.forEach(item => {
-        item.addEventListener('mouseenter', () => {
-          items.forEach(el => el.style.opacity = '0.3');
-          item.style.opacity = '1';
-        });
-      });
-    
-      itemsContainer.addEventListener('mouseleave', () => {
-        items.forEach(el => el.style.opacity = '0.3');
-        firstItem.style.opacity = '1';
-      });
+
 </script>
 
 
